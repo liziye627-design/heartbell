@@ -46,7 +46,8 @@
 .echo-persona .echo-gateway>.btn{background:none;box-shadow:none;border:0;font-size:var(--size-12);color:var(--bell-deep-rose)}
 .bell-portrait{position:relative;overflow:hidden}.bell-portrait>.echo-portrait-photo{position:absolute;inset:0}.bell-portrait-caption{position:relative;z-index:1}
 .stitch-chat .bell-chat-header{gap:var(--size-12);margin:var(--size-16) 0 var(--size-24);padding-bottom:var(--size-16);border-bottom:var(--size-1) solid var(--line)}
-.stitch-chat .bell-chat-header>.echo-portrait-photo{width:var(--size-44);height:var(--size-44);border-radius:50%;flex-shrink:0}
+.stitch-chat .bell-chat-header>.bell-face,.stitch-chat .bell-chat-header>.echo-portrait-photo,.stitch-chat .bell-chat-header .bell-avatar{width:var(--size-44);height:var(--size-44);border-radius:50%;flex-shrink:0}
+.stitch-chat .bell-chat-header>div{min-width:0;flex:1}
 .stitch-chat .bell-chat-header h2{font-size:var(--size-18)}
 .stitch-chat .bell-chat-header small{font-size:var(--size-11)}
 .stitch-chat .bell-conversation{gap:var(--size-16);align-items:stretch}
